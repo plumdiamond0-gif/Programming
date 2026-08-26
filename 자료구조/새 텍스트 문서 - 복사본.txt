@@ -1,0 +1,451 @@
+1. 프로그래밍 기초
+ 프로그래밍이란 무엇인가
+ 프로그램 / 프로세스 / 스레드
+ 컴파일 / 빌드 / 실행
+ 소스 코드 → 컴파일 → 실행 과정
+ CPU / RAM / 저장장치의 기본 역할
+ 변수
+ 상수
+ 자료형
+ 형 변환
+ 연산자
+산술
+비교
+논리
+대입
+증감
+ 조건문
+if
+else
+switch
+ 반복문
+for
+while
+foreach
+ break
+ continue
+ 함수
+ 매개변수
+ 반환값
+ 지역 변수 / 전역 변수
+ 스코프
+ 재귀
+2. 자료구조
+ 배열
+ List
+ Dictionary
+ HashSet
+ Stack
+ Queue
+ LinkedList
+ Tuple
+ struct
+ 참조형 / 값형
+ 자료구조별 특징
+ 자료구조 선택 기준
+
+3. 메모리와 참조
+
+이 부분은 C#을 제대로 이해하려면 굉장히 중요해.
+
+ Stack
+ Heap
+ 값형
+ 참조형
+ 참조(reference)
+ 객체 생성
+ new
+ null
+ Garbage Collection
+ 객체의 생명주기
+ 얕은 복사
+ 깊은 복사
+ ref
+ out
+ in
+4. C# 문법
+ 클래스
+ 객체
+ 필드
+ 프로퍼티
+ 메서드
+ 생성자
+ 소멸자
+ 접근 제한자
+public
+private
+protected
+internal
+ static
+ const
+ readonly
+ this
+ base
+ enum
+ struct
+ namespace
+ using
+ nullable
+ var
+ is
+ as
+ typeof
+ nameof
+5. 객체지향 프로그래밍
+
+
+핵심 개념
+ 클래스
+ 객체
+ 캡슐화
+ 상속
+ 다형성
+ 추상화
+C# 구현
+ 상속
+ virtual
+ override
+ abstract
+ interface
+ 업캐스팅
+ 다운캐스팅
+ 추상 클래스 vs 인터페이스
+설계
+ 상속보다 조합
+ 단일 책임
+ 결합도
+ 응집도
+ 의존성
+ 의존성 주입
+6. C# 고급 문법
+
+네가 이미 일부 배운 것들도 여기에 넣으면 돼.
+
+ Generic
+ T
+ Generic Method
+ Generic Class
+ Delegate
+ Action
+ Func
+ Predicate
+ Lambda
+ Event
+ Anonymous Method
+ IEnumerable
+ IEnumerator
+ yield return
+ LINQ
+ Extension Method
+ Nullable
+ Pattern Matching
+ Exception
+ try / catch / finally
+ 사용자 정의 Exception
+7. 프로그램 구조와 설계
+
+여기부터는 “코드를 작성하는 것”에서 “프로그램을 설계하는 것”으로 넘어가는 부분이야.
+
+ 모듈
+ 컴포넌트
+ 의존성
+ 결합도
+ 응집도
+ 관심사의 분리
+ 책임 분리
+ 인터페이스 기반 설계
+ SOLID
+SRP
+OCP
+LSP
+ISP
+DIP
+ 디자인 패턴
+Singleton
+Factory
+Observer
+Strategy
+State
+Command
+Object Pool
+MVC
+MVP
+MVVM
+8. 알고리즘
+ 시간 복잡도
+ 공간 복잡도
+ Big-O
+ 탐색
+선형 탐색
+이진 탐색
+ 정렬
+버블 정렬
+선택 정렬
+삽입 정렬
+병합 정렬
+퀵 정렬
+ 재귀
+ DFS
+ BFS
+ 그리디
+ 동적 계획법
+ 그래프
+ 트리
+ 힙
+ 해시
+9. Unity
+
+네가 실제로 가장 많이 배운 부분이니까 별도 대분류로 두자.
+
+Unity 기본 구조
+ Scene
+ GameObject
+ Component
+ MonoBehaviour
+ Transform
+ Prefab
+ Asset
+ Inspector
+ Hierarchy
+ Project
+Unity 생명주기
+ Awake
+ OnEnable
+ Start
+ Update
+ FixedUpdate
+ LateUpdate
+ OnDisable
+ OnDestroy
+물리
+ Rigidbody
+ Collider
+ Trigger
+ Collision
+ Physics
+ Raycast
+ OverlapSphere
+ Force
+ Velocity
+애니메이션
+ Animator
+ Animation
+ Animation Clip
+ Animator Controller
+ Parameter
+ Transition
+ Blend Tree
+입력
+ Unity Input System
+ Input Action
+ Input Action Map
+ Callback
+ Player Input
+10. Unity 게임 아키텍처
+
+이건 네가 실제 프로젝트에서 계속 고민했던 부분.
+
+ Manager
+ Singleton
+ GameManager
+ UIManager
+ SoundManager
+ SaveManager
+ SceneManager
+ AssetManager
+ PrefabManager
+ Player 구조
+ Player와 Visual 분리
+ 데이터와 로직 분리
+ ScriptableObject
+ 이벤트 기반 구조
+ 상태 머신
+ Object Pool
+11. Unity 데이터 관리
+ ScriptableObject
+ JSON
+ PlayerPrefs
+ Save Data
+ 직렬화
+ Dictionary 직렬화 문제
+ Addressables
+ Asset Reference
+ Asset Bundle 개념
+ 비동기 로딩
+ async / await
+ Coroutine
+ IEnumerator
+
+네가 했던 Addressables + SceneManager + SaveManager도 여기에 넣으면 좋음.
+
+12. Unity UI
+ Canvas
+ Canvas Scaler
+ RectTransform
+ Image
+ Text
+ TMP
+ Button
+ Panel
+ Layout Group
+ Content Size Fitter
+ UI 생성
+ UI 삭제
+ UI 활성/비활성
+ UI 데이터 바인딩
+ UI 애니메이션
+ UI 이벤트
+13. 게임 수학
+
+게임 프로그래밍에서는 이거 중요해.
+
+ 좌표계
+ Vector2
+ Vector3
+ 방향 벡터
+ 거리
+ 정규화
+ Dot Product
+ Cross Product
+ 내적
+ 외적
+ 각도
+ 회전
+ Quaternion
+ Euler Angle
+ Lerp
+ Slerp
+ Clamp
+ 보간
+ 삼각함수
+14. 네트워크 프로그래밍
+
+네가 Photon PUN2를 공부했으니까 이것도 반드시 따로.
+
+ Client / Server
+ Host
+ Peer-to-Peer
+ IP
+ Port
+ TCP
+ UDP
+ Packet
+ Latency
+ Ping
+ Bandwidth
+ Synchronization
+ RPC
+ Network Object
+ Ownership
+ Authority
+ State Synchronization
+ Interpolation
+ Prediction
+ Server Authority
+Photon
+ PhotonNetwork
+ PhotonView
+ RPC
+ Room
+ Lobby
+ Player
+ RoomInfo
+ RaiseEvent
+ Serialization
+ SendRate
+ SerializationRate
+15. Unreal Engine / C++
+
+최근 배우기 시작한 Unreal 쪽은 별도로.
+
+C++
+ 포인터
+ 참조
+ 메모리
+ struct
+ class
+ 생성자
+ 소멸자
+ 상속
+ virtual
+ 헤더
+ cpp
+ #include
+ namespace
+ 템플릿
+Unreal
+ Actor
+ Pawn
+ Character
+ Controller
+ PlayerController
+ GameMode
+ GameState
+ PlayerState
+ Component
+ World
+ Level
+ Blueprint
+ Gameplay Framework
+ Input System
+ Enhanced Input
+ Input Mapping Context
+ Replication
+ RPC
+16. Git / GitHub
+
+이것도 프로그래밍 지식으로 넣는 게 좋아.
+
+ Git이란?
+ Repository
+ Working Directory
+ Staging Area
+ Commit
+ Branch
+ Merge
+ Rebase
+ Remote
+ Push
+ Pull
+ Fetch
+ Clone
+ Pull Request
+ Merge Conflict
+ .gitignore
+ GitHub
+ GitHub Desktop
+
+특히 네가 겪었던 Unity Scene Merge Conflict 같은 실제 사례도 같이 적어놓으면 기억이 오래가.
+
+17. 디버깅
+ Breakpoint
+ Step Over
+ Step Into
+ Step Out
+ Call Stack
+ Watch
+ 로그
+ Exception
+ NullReferenceException
+ StackOverflow
+ 성능 문제
+ 논리 오류
+ 컴파일 오류
+ 런타임 오류
+18. 성능 최적화
+ CPU 병목
+ GPU 병목
+ 메모리
+ GC Allocation
+ Garbage Collection
+ Object Pooling
+ Draw Call
+ Batching
+ Texture
+ Mesh
+ LOD
+ Profiler
+ Update 남용
+ GetComponent
+ Find 계열 함수
+ 캐싱
