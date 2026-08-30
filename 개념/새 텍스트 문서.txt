@@ -7,29 +7,10 @@
  변수
  상수
  자료형
-int
-float
-double
-bool
-char
-string
  형 변환
  연산자
-산술
-비교
-논리
-대입
-증감
  조건문
-if
-else
-switch
  반복문
-for
-while
-foreach
- break
- continue
  함수
  매개변수
  반환값
@@ -77,6 +58,7 @@ Queue<string>
  ref
  out
  in
+
 4. C# 문법
  클래스
  객체
