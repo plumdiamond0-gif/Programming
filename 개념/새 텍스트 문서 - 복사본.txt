@@ -1,20 +1,4 @@
 
-3. 메모리와 참조
- Stack
- Heap
- 값형
- 참조형
- 참조(reference)
- 객체 생성
- new
- null
- Garbage Collection
- 객체의 생명주기
- 얕은 복사
- 깊은 복사
- ref
- out
- in
 
 4. C# 문법
  클래스
@@ -44,6 +28,7 @@ internal
  as
  typeof
  nameof
+
 5. 객체지향 프로그래밍
 
 
